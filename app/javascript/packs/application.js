@@ -9,8 +9,14 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import 'jquery'
 import '@doabit/semantic-ui-sass'
-import '@doabit/semantic-ui-sass/src/scss/semantic-ui.scss'
+// import '@doabit/semantic-ui-sass/src/scss/semantic-ui.scss'
+
+$(document).on('turbolinks:load', function () {
+  $('.ui.dropdown').dropdown();
+})
+
 
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
