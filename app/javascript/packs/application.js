@@ -9,13 +9,13 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import 'jquery'
 import '@doabit/semantic-ui-sass'
-// import '@doabit/semantic-ui-sass/src/scss/semantic-ui.scss'
 
 // scroll_bottom = function() {
 //   if ($('#messages').length > 0) {
 //     $('#messages').scrollTop($('#messages')[0].scrollHeight);
 //   }
 // }
+
 
 $(document).on('turbolinks:load', function () {
   $('.ui.dropdown').dropdown();
